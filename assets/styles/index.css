@@ -19,9 +19,32 @@
 }
 
 #main-content p{
-    background-color: rgb(4, 48, 92);
+    background-color: rgb(7, 111, 214);
+    /*background-image: linear-gradient(
+        to right,
+        #4162cf 0%,
+        #0072ff 50%,
+        #4162cf 100%
+        );*/
     border-radius: 10px;
     color: #fff;
     font-size: 1.2rem;
     margin: .5rem 0;
+}
+.tryfree-buttom{
+    width: 200px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(
+        to right,
+        #4162cf 0%,
+        #0072ff 50%,
+        #4162cf 100%
+        );
+        border-radius: 10px;
+        background-size: 200% auto;
+        transition: .3s ease-in-out;
 }
