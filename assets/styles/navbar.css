@@ -1,10 +1,9 @@
 nav{
     height: 70px;
-    background-color: rgb(14, 18, 41);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0 2rem;
 
 
 }
@@ -12,14 +11,32 @@ nav .brand{
     display: flex;
     align-items: center;
 }
+/**/
 nav .brand img{
     height: 50px;
     border-radius: 15px;
+    margin: 0 5px ;
     
     
 }
+/*style nav bar anchor links*/
 nav .brand a{
     color: #fff;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    align-items: center;
+    margin: 0 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
 }
