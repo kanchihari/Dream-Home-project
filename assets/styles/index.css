@@ -1,6 +1,6 @@
 #home-pg{
     /*Adding background image*/
-    background: url("../images/homeimage1.jpg");
+    background: url("../images/home2-img.jpg");
     background-size: cover;
     min-height: 100vh;
 }
@@ -14,12 +14,12 @@
 }
 
 #main-content h1{
-    color: rgb(229, 228, 241);
+    color: #fff;
     font-size: 3rem;
 }
 
 #main-content p{
-    background-color: rgb(7, 111, 214);
+    
     /*background-image: linear-gradient(
         to right,
         #4162cf 0%,
@@ -47,4 +47,19 @@
         border-radius: 10px;
         background-size: 200% auto;
         transition: .3s ease-in-out;
+        text-transform: uppercase;
+        margin-top: 1.5rem;
+}
+.tryfree-buttom:hover{
+    background-position: right center;
+}
+
+@media screen and (max-width:600px) {
+    #main-content h1{
+        font-size: 2.25rem;
+    }
+    #main-content p{
+        font-size: 1rem;
+    }
+    
 }
