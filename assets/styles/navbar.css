@@ -1,0 +1,25 @@
+nav{
+    height: 70px;
+    background-color: rgb(14, 18, 41);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+
+
+}
+nav .brand{
+    display: flex;
+    align-items: center;
+}
+nav .brand img{
+    height: 50px;
+    border-radius: 15px;
+    
+    
+}
+nav .brand a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+}
