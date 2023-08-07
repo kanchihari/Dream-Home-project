@@ -37,6 +37,31 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #ddd;
     padding: 5px;
+    position: relative;
+
+}
+/*add hover style to  anchor elements*/
+nav ul li a:hover{
+    color: #fff;
+}
+
+/*apply styles to the links that are already in the browser by making use of pseudo class*/
+nav ul li a::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transition: .3s ease-in-out;
+    transform-origin: left;
+}
+/*combining the both pesudo actions (which means when hover on the element then after actions will take place*/
+nav ul li a:hover::after{
+    transform: scaleX(1);
+    
 }
