@@ -4,3 +4,24 @@
     background-size: cover;
     min-height: 100vh;
 }
+#main-content{
+    position:absolute;
+    top: 20%;
+    left: 30%;
+    right: 30%;
+    transform: translate(-50% -50%);
+    
+}
+
+#main-content h1{
+    color: rgb(229, 228, 241);
+    font-size: 3rem;
+}
+
+#main-content p{
+    background-color: rgb(4, 48, 92);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: .5rem 0;
+}
