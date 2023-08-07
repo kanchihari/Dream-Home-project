@@ -1,6 +1,6 @@
 #home-pg{
     /*Adding background image*/
-    background: url("../images/Dreamhouse.jpg");
+    background: url("../images/homeimage1.jpg");
     background-size: cover;
     min-height: 100vh;
 }
